@@ -62,7 +62,7 @@ w.plotOptions.series.dataLabels.style.textOutline = false; 
 w.legend.reversed = true;
 ```
 
-#### 1.11.1 Из легенды убрать названия серий
+#### 1.11.1 В легенде оставить только названия серий
 ```javascript
 w.legend.labelFormatter = function(){
     return this.name.split('-')[0];
